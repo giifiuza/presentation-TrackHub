@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { HiMenu, HiX } from "react-icons/hi";
 import HeaderItem from "./HeaderItem";
-import Logo from '../assets/logo.svg';
+import Logo from '../../assets/logo.svg';
 
 function Header() {
     const [toggle, setToggle] = useState(false);
@@ -31,7 +31,7 @@ function Header() {
                 </div>
                 <div className="hidden md:block">
                     <button className="justify-center">
-                        <div className="h-10 w-full rounded-md bg-gradient-to-r from-rose-800 to-blue-700 p-[1px]">
+                        <div className="h-10 w-full rounded-md bg-gradient-to-r from-[#9E2896] to-[#18837E] p-[1px]">
                             <div className="flex h-full w-full rounded-md items-center justify-center p-2 px-7 bg-black">
                                 <h1 className="text-base font-semibold text-white">Access </h1>
                             </div>
