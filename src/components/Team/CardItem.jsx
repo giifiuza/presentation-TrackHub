@@ -10,7 +10,7 @@ export default function CardItem({name, position, image, github, linkedin}) {
       {/* <img src={diegoPhoto} className='h-full w-full rounded' /> */}
       <h1 className='font-inter font-bold  text-lg'>{name}</h1>
       <h2 className='font-medium text-sm text-slate-500'>{position}</h2>
-      <div className='flex flex-row mt-3'>
+      <div className='flex flex-row mt-3 gap-2'>
         <a href={github}>
             <img src={githubIcon} className='mt-[3px] w-[22px] h-[20px]' />
         </a>
