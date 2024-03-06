@@ -22,7 +22,7 @@ export default function Benefits() {
 
     return (
         <div className=''>
-            <div className="flex items-center justify-center px-12 content-center  gap-16 md:flex">
+            <div className="flex flex-row items-center justify-center px-12 content-center  gap-16 md:flex">
                 {topics.map((item) => (
                     <BenefitItem key={item.id} title={item.title} description={item.description} />
                 ))}

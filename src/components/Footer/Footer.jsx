@@ -5,7 +5,7 @@ import logoBosch from '../../assets/logoBosch.svg'
 
 export default function Footer() {
   return (
-    <footer className="w-full text-white font-inter px-6">
+    <footer className="w-full text-white font-inter px-6 mt-[100px]">
       <div className="flex flex-row flex-wrap items-center justify-center gap-y-6 gap-x-12 text-[#939393] text-center md:justify-between">
         <img src={logoBosch} alt="logo-ct" className="w-[150px] h-auto" />
         <ul className="flex flex-wrap items-center gap-y-2 gap-x-8">
