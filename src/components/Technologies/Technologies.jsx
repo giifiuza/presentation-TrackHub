@@ -1,3 +1,4 @@
+// Technologies.js
 import React from 'react';
 import reactIcon from '../../assets/react.svg';
 import dockerIcon from '../../assets/docker.svg';
@@ -47,26 +48,15 @@ export default function Technologies() {
         },
     ];
 
-    // Split languages into chunks of 3 items
-    const chunkedLanguages = languages.reduce((acc, _, i) => {
-        if (i % 3 === 0) acc.push(languages.slice(i, i + 3));
-        return acc;
-    }, []);
-
     return (
-        <div className='flex flex-col  items-center justify-center mt-[50px]'>
-            <h1 className='text-white font-bold  font-inter text-center text-4xl'>Technologies</h1>
-            <div className="h-2 w-[55px] mt-2 rounded bg-gradient-to-r from-[#9E2896] to-[#18837E] p-[1px]"></div>
-            <div className='px-[140px]'>
-                {chunkedLanguages.map((row, rowIndex) => (
-                    <div key={rowIndex} className="flex mt-12">
-                        {row.map((item) => (
-                            <TechnologiesItem key={item.id} icon={item.icon} title={item.title} description={item.description} />
-                        ))}
-                    </div>
+        <div className='flex flex-col items-center justify-center mt-8 md:mt-[50px]'>
+            <h1 className='text-white font-bold font-inter text-center text-4xl'>Technologies</h1>
+            <div className="h-2 w-24 mt-2 rounded bg-gradient-to-r from-[#9E2896] to-[#18837E] mx-auto md:mx-0"></div>
+            <div className='grid grid-cols-1 md:grid-cols-3 gap-6 mt-6 md:mt-8 px-4 md:px-[140px]'>
+                {languages.map((language) => (
+                    <TechnologiesItem key={language.id} icon={language.icon} title={language.title} description={language.description} />
                 ))}
             </div>
-
         </div>
     );
 }

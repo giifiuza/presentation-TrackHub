@@ -1,3 +1,4 @@
+// Header.js
 import React, { useState } from "react";
 import { HiMenu, HiX } from "react-icons/hi";
 import HeaderItem from "./HeaderItem";
@@ -18,11 +19,11 @@ function Header() {
     ];
 
     return (
-        <div className="fixed top-0 justify-end left-0 w-full p-3 bg-black">
+        <div className="fixed top-0 left-0 w-full p-3 bg-black z-50">
             <div className="flex items-center justify-between p-5">
                 <img
                     src={Logo}
-                    className="w-[100px] md:w-[130px] object-cover"
+                    className="w-[100px] md:w-[130px] object-cover z-50"
                 />
                 <div className="hidden content-center gap-16 md:flex">
                     {menu.map((item) => (

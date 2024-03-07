@@ -11,14 +11,18 @@ import Technologies from './components/Technologies/Technologies.jsx'
 function App() {
 
   return (
-    <div className="bg-black text-white min-h-screen font-inter">
+    <div className="relavtive bg-black text-white min-h-screen font-inter">
       {/* <CampoModal title={"Nome"}/> */}
       <Header />
-      <Principal />
-      <Benefits />
-      <Technologies />
-      <Team />
-      <Footer />
+      <div className='.mt-[130px]'>
+
+        <Principal />
+        <Benefits />
+        <Technologies />
+        <Team />
+        <Footer />
+      </div>
+
       {/* <Button color={'bg-[#9E2896]'} title={"Adicionar"} colorHover={'hover:bg-[#6E0667]'}/> */}
     </div>
   )
