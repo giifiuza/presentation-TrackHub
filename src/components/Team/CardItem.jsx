@@ -1,5 +1,4 @@
 import React from 'react'
-import diegoPhoto from '../../assets/diego.jfif'
 import githubIcon from '../../assets/github.svg'
 import linkedinIcon from '../../assets/linkedin.svg'
 
