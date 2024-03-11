@@ -21,7 +21,7 @@ export default function Team() {
         },
         {
             id:"03",
-            image:"bg-[url('/image/giovanna.jfif')]",
+            image:"bg-[url('/image/giovanna.jpg')]",
             name:"Giovanna Fiuza",
             position: "BackEnd Developer",
             github: "https://github.com/giifiuza/",
