@@ -13,7 +13,7 @@ export default function Team() {
         },
         {
             id:"02",
-            image:"bg-[url('./src/assets/esther.jfif')]",
+            image:"bg-[url('/esther.jfif')]",
             name:"Esther da Cunha",
             position: "FrontEnd Developer",
             github: "https://github.com/EstherDaCunha",
