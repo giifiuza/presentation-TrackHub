@@ -5,7 +5,7 @@ export default function Team() {
     const member = [
         {
             id:"01",
-            image:"bg-[url('/diego.jpg')]",
+            image:"bg-[url('/image/diego.jpg')]",
             name:"Diego Alencar",
             position: "Fullstack Developer",
             github: "https://github.com/giifiuza/",
@@ -13,7 +13,7 @@ export default function Team() {
         },
         {
             id:"02",
-            image:"bg-[url('/esther.jfif')]",
+            image:"bg-[url('/image/esther.jfif')]",
             name:"Esther da Cunha",
             position: "FrontEnd Developer",
             github: "https://github.com/EstherDaCunha",
@@ -21,7 +21,7 @@ export default function Team() {
         },
         {
             id:"03",
-            image:"bg-[url('./src/assets/giovanna.jpg')]",
+            image:"bg-[url('/image/giovanna.jpg')]",
             name:"Giovanna Fiuza",
             position: "BackEnd Developer",
             github: "https://github.com/giifiuza/",
@@ -29,7 +29,7 @@ export default function Team() {
         },
         {
             id:"04",
-            image:"bg-[url('./src/assets/nicole.jfif')]",
+            image:"bg-[url('/image/nicole.jfif')]",
             name:"Nicole Siqueira",
             position: "BackEnd Developer",
             github: "https://github.com/nisiq",
