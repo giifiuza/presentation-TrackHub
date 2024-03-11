@@ -5,7 +5,7 @@ export default function Team() {
     const member = [
         {
             id:"01",
-            image:"bg-[url('./src/assets/diego.jpg')]",
+            image:"bg-[url('/diego.jpg')]",
             name:"Diego Alencar",
             position: "Fullstack Developer",
             github: "https://github.com/giifiuza/",
