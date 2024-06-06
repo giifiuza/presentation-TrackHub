@@ -7,17 +7,17 @@ export default function Benefits() {
         {
             id: "01",
             title: "Organization",
-            description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet consectetur adipisicing elit. "
+            description: "Your records is now thoroughly organized and centralized on a single platform for easy access."
         },
         {
             id: "02",
             title: "Privacy and security",
-            description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet consectetur adipisicing elit. "
+            description: "Allowing only you and your instructors access, your records are completely private and secure."
         },
         {
             id: "03",
             title: "Monitoring",
-            description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet consectetur adipisicing elit. "
+            description: "Being accompanied at every step by your instructor, through the platform you receive feedback."
         },
     ];
 

@@ -1,9 +1,9 @@
 // Technologies.js
 import React from 'react';
-import reactIcon from '../../assets/react.svg';
+import nextIcon from '../../assets/next.svg';
 import dockerIcon from '../../assets/docker.svg';
 import fastapIcon from '../../assets/fastapi.svg';
-import mysqlIcon from '../../assets/mysql.svg';
+import postgresqlIcon from '../../assets/postgresql.svg';
 import nodeIcon from '../../assets/nodejs.svg';
 import typescript from '../../assets/typescript.svg';
 import TechnologiesItem from './TechnologiesItem';
@@ -12,31 +12,31 @@ export default function Technologies() {
     const languages = [
         {
             id: "01",
-            icon: reactIcon,
-            title: "React",
-            description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet consectetur adipisicing elit. "
+            icon: nextIcon,
+            title: "Next",
+            description: "Next.js, a React framework, enhances web apps with server-side rendering, static site generation, and API support."
         },
         {
             id: "02",
             icon: dockerIcon,
             title: "Docker",
-            description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet consectetur adipisicing elit. "
+            description: "Docker is a platform for developing, shipping, and running applications inside lightweight, portable containers."
         },
         {
             id: "03",
             icon: fastapIcon,
             title: "FastAPI",
-            description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet consectetur adipisicing elit. "
+            description: "FastAPI is a high-performance Python framework for building APIs quickly with automatic interactive documentation."
         },
         {
             id: "04",
             icon: nodeIcon,
             title: "NodeJS",
-            description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet consectetur adipisicing elit. "
+            description: "Node.js empowers server-side JavaScript. Express.js, its popular framework, simplifies web app development."
         },
         {
             id: "05",
-            icon: mysqlIcon,
+            icon: postgresqlIcon,
             title: "MySQL",
             description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet consectetur adipisicing elit. "
         },
