@@ -1,4 +1,3 @@
-// Header.js
 import React, { useState } from "react";
 import { HiMenu, HiX } from "react-icons/hi";
 import HeaderItem from "./HeaderItem";
@@ -9,15 +8,9 @@ function Header() {
 
     const menu = [
         {
-            title: "About",
-            onClick: () => {
-                console.log("About clicked");
-            }
-        },
-        {
             title: "Documentation",
             onClick: () => {
-                
+                window.open("https://esthers-organization-1.gitbook.io/trackhub/", "_blank");
             }
         }
     ];
