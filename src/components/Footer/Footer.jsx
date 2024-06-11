@@ -11,26 +11,10 @@ export default function Footer() {
         <ul className="flex flex-wrap items-center gap-y-2 gap-x-8">
           <li>
             <a
-              href='#'
-              className="font-regular font-inter text-sm  hover:text-slate-600 "
-            >
-              About
-            </a>
-          </li>
-          <li>
-            <a
-              href="#"
+              href="https://esthers-organization-1.gitbook.io/trackhub/"
               className="font-regular text-sm hover:text-slate-600 "
             >
               Documentation
-            </a>
-          </li>
-          <li>
-            <a
-              href="#"
-              className="font-regular text-sm hover:text-slate-600 "
-            >
-              Team
             </a>
           </li>
           <li>

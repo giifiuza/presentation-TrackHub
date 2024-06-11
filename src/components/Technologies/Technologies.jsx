@@ -37,14 +37,14 @@ export default function Technologies() {
         {
             id: "05",
             icon: postgresqlIcon,
-            title: "MySQL",
-            description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet consectetur adipisicing elit. "
+            title: "PostgreSQL",
+            description: "PostgreSQL is a powerful, open-source relational database known for its reliability, rich features, and high performance.            "
         },
         {
             id: "06",
             icon: typescript,
             title: "TypeScript",
-            description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet consectetur adipisicing elit. "
+            description: "TypeScript is a typed superset of JavaScript that compiles to plain JavaScript, improving code quality and maintainability."
         },
     ];
 
